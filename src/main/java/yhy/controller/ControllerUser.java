@@ -40,5 +40,16 @@ public class ControllerUser {
         return list.toString();
     }
 
+    @RequestMapping("/info2")
+    @ResponseBody
+    public String userInfo1(){
+        List<User> list = userService.getUsers();
+        /*控制台查看数据*/
+        for(User user :list){
+            System.out.println(user.toString());
+        }
+        return list.toString();
+    }
+
 
 }
