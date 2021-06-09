@@ -26,7 +26,7 @@ public class ControllerUser {
     @RequestMapping("/json")
     @ResponseBody
     public String testJson(){
-        return "hello Word！12";
+        return "hello Word！添加错误信息";
     }
 
     @RequestMapping("/info")
