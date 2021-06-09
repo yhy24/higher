@@ -29,7 +29,7 @@ public class ControllerUser {
         return "hello Word！添加错误信息";
     }
 
-    @RequestMapping("/info")
+    @RequestMapping("/info123")
     @ResponseBody
     public String userInfo(){
         List<User> list = userService.getUsers();
