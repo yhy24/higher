@@ -37,6 +37,7 @@ public class ControllerUser {
         for(User user :list){
             System.out.println(user.toString());
         }
+        System.out.println("打印日志信息");
         return list.toString();
     }
 
