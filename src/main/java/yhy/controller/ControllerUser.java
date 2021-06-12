@@ -47,4 +47,7 @@ public class ControllerUser {
     public void test2() {
         System.out.println("456");
     }
+    public void test3() {
+        System.out.println("789");
+    }
 }
