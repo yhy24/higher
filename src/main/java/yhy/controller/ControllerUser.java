@@ -40,5 +40,9 @@ public class ControllerUser {
         return list.toString();
     }
 
+    public void test1() {
+        System.out.println("123");
+    }
+
 
 }
